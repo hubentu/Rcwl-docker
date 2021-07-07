@@ -6,4 +6,4 @@ RUN apt-get update && \
 
 RUN pip3 install cwltool
 
-RUN R -e 'BiocManager::install(c("Rcwl", "RcwlPipelines"))'
+RUN R -e 'BiocManager::install(c("hubentu/Rcwl", "RcwlPipelines"))'
